@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bisola tailwind</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jacquard+24&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxygen:wght@300;400;700&family=Sedan:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+                cilfford: "#ade373d",
+              primarycolor: "#BFE0E3",
+              secondarycolor: "#ffffff",
+            },
+          },
+        },
+      };
+    </script>
+  
+    </head>
+    <body>
+        <div ass="w-full p-2">
+            <nav class="flex justify-between">
+                <h3>BISOLA</h3>
+                <div class="hidden md:flex">
+                    <div class="ml-10 text-sm capitalize   hover:text-secondarycolor">Home</div>
+                    <div class="ml-10 text-sm capitalize   hover:text-secondarycolor">About</div>
+                    <div class="ml-10 text-sm capitalize  hover:text-secondarycolor">Skills</div>
+                    <div class="ml-10 text-sm capitalize   hover:text-secondarycolor">Project</div>
+                    <div class="ml-10 text-sm capitalize   hover:text-secondarycolor">Contact</div>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- main section -->
+        <div id="home" class="w-full h-[50vh] text-center">
+            <div class="max-w-[1240px] w-full mx-auto p-2 flex justify-center item-center">
+                <div>
+                    <p class="uppercase text-sm text-gray-600">Great to have you here😊</p>
+                <h2 class="py-4 text-gray-400 text-lg">Hi, I am <span class="text-[#5651e5]">BISOLA</span></h2>
+                <h2 class="py-2 text-gray-700">A Full-Stack Web Developer</h2>
+                <p class="py-4 text-sm text-gray-600 max-w[70%] m-auto">I am full stack developer with very good knowledge in <br>building web application</p>
+
+                 <!-- Icon connection section  -->
+                <div class="flex items-center justify-between m-auto max-w-[300px]">
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                        
+                        <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </div>
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300" >
+                        <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                        <a href=""><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                        <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                    </div>
+                 </div>
+              </div>   
+            </div>
+        </div>
+
+         <!-- Content section  -->
+         <div class="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+            <div class="col-span-2">
+                <p>I like to think that I’m a very flexible and resourceful person. Even when things change at the last minute, I’m able to adjust accordingly and meet tight deadlines. At my last job, the schedule was constantly changing, so I needed to be highly adaptable. Despite the chaotic environment, I always finished tasks on time.</p>
+            </div>
+            <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300">
+                <img src="https://plus.unsplash.com/premium_photo-1661962841993-99a07c27c9f4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D" alt="" srcset="" width="200px" height="200px">
+            </div>
+                <div>I am ambitious and driven. I thrive on challenges and constantly set goals for myself, so I have something to strive toward. I'm not comfortable with settling, and I'm always looking for an opportunity to do better and achieve greatness. </div>
+
+                <div>I am results-oriented</div>
+
+                <div>I am an excellent communicator. I pride myself on making sure people have the right information because it drives better results.</div>
+
+         </div>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    </body>
+    </html>
